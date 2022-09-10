@@ -1,0 +1,312 @@
+
+body{
+    width: 1440px;
+    margin: auto;
+}
+
+html{
+    min-height: 100%;
+    width: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    width: 100%;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo{
+    float: left;
+    margin-left: 100px;
+    margin-top: 25px;
+}
+
+
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+
+
+
+#navegador{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    width: fit-content;
+    float: right;
+    margin-right: 100px;
+    margin-top: 25px;
+}
+
+
+
+#navegador ul{
+    list-style-type: none;
+    text-align: right;
+    
+}
+
+#navegador li{
+    display: inline;
+    text-align: right;
+    margin: 0 10px 0 0;
+}
+
+#navegador li a{
+    padding: 2px 7px 2px 7px;
+    color: black;
+    background-color: white;
+    border: 1px solid transparent;
+    text-decoration: none;
+}
+
+#navegador li a:hover{
+    background-color: #BFBFBF;
+    color: black;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.texto0{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400px;
+    font-size: 18px;
+}
+
+
+.imagen2{
+    float: right;   
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+}
+
+input[name=direccionemail]{
+    width: 350px;
+    font-size: 15px;
+    padding: 5px 10px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 2px solid grey;
+    font-family: 'Raleway', sans-serif;
+}
+
+button[type=submit]{
+    color: white;
+    width: 180px;
+    background-color: #3065F8;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    box-shadow: 0px 5px 5px #BFBFBF;
+    transition: transform 0.3s ease;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.box{
+    background-color: #F6F6FE;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 400px;
+}
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.texto2{
+    margin-top: 20px;
+    margin-left: 100px;
+    font-size:18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.arrow{
+    margin-left: 5px;
+}
+
+.imagen1{
+    float: right;
+    margin-right: 100px;
+    width: fit-content;
+    display: flex;
+}
+
+.imagen1 a{
+    margin: auto;
+}
+
+.texto2 a{
+    text-decoration: none;
+    color: #3C9F8F;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.texto2 a{
+    border-bottom: 1px solid #3C9F8F;
+}
+
+.card{
+    background-color: white;
+    border-radius: 15px;
+    width: 375px;
+    margin-top: 60px;
+    padding: 30px 50px;
+    box-shadow: 0 0 50px  #999;
+    margin-bottom: 180px;
+}
+
+.card-profile{
+    margin-top: 50px;
+}
+
+.card-profile .card-img{
+    width: 40px;
+    height: 40px;
+    overflow-y: hidden;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.card-text{
+    font-size: 15px;
+    margin-top: 30px;
+    font-weight: 400;
+}
+
+.card-profile img{
+    width: 40px;
+    height: auto;
+}
+.card-user{
+    width: fit-content;
+    height: 40px;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.card-job{
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.card-name{
+    font-weight: bold;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.box1{
+    background-color:#585989;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.texto3{
+    color: #F6F6FE;
+    font-weight: 400;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 90px;
+}
+
+
+
+input[name=direccionemail1]{
+    width: 400px;
+    font-size: 15px;
+    padding: 10px 10px;
+    justify-content: space-between;
+    border-radius: 5px;
+    border: 2px solid grey;
+    margin-right: 100px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+button[type=submit1]{
+    color:  #F6F6FE;;
+    width: 250px;
+    justify-content: space-between;
+    background-color: #3065F8;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 2px;
+    margin-top: 10px;
+    margin-right: 100px;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    box-shadow: 1px 3px 3px #070439;
+    transition: transform 0.3s ease;
+}
+
+.piepagina{
+    background-color: #070439;
+    display: flex;
+    justify-content: space-between;
+}
+
+.parteabajo{
+    margin-top: 100px;
+}
+
+.datos{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.telefono{
+    margin-right: 10px;
+}
+
+.email3{
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+.facebook{
+    margin-left: 200px;
+    margin-right: 0px;
+}
+
+.nada{
+    margin-top: 30px;
+}
+
+.espacio{
+    margin-bottom: 100px;
+}
